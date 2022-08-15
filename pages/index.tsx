@@ -1,7 +1,7 @@
 import { getProducts, Product } from '@stripe/firestore-stripe-payments';
 import Head from 'next/head';
 import { useRecoilValue } from 'recoil';
-import { modalState, movieState } from '../atoms/modalAtom.';
+import { modalState, movieState } from '../atoms/modalAtom';
 import Banner from '../components/Banner';
 import Header from '../components/Header';
 import Modal from '../components/Modal';
